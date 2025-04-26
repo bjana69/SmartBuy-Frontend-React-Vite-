@@ -1,0 +1,113 @@
+  /* -----mainLogin section ----- */
+  
+  .mainLogin {
+    background: #fff;
+  }
+  
+  .account-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .account-image img {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  
+  .account-section .account-form {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .account-form h2 {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .account-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .account-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+    
+  .account-form .options{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  
+  .options button, p{
+    gap: 100px;
+  }
+  
+  .options button{
+    float: left;
+    min-width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .options {
+    align-items: center;
+  }
+  .options p{
+    float: right;
+    padding-left: 60px;
+  }
+  
+  .account-form .login-button {
+    background: #db4437;
+    color: #fff;
+    width: 300px;
+  }
+  
+  .account-form .login-button:hover {
+    background: red;
+  }
+
+  @media (max-width: 1400px) {
+    .account-section {
+      /* stack vertically */
+      flex-direction: column;
+      /* center each child horizontally */
+      align-items: center;
+      /* optional: center the block itself vertically if you want */
+      justify-content: center;
+    }
+  
+    .account-image {
+      /* give a little breathing room under the picture */
+      margin-bottom: 20px;
+    }
+  
+    .account-form {
+      /* remove the left margin you added for desktop */
+      margin-left: 0;
+      margin-top: 20px;
+      flex: 2;
+      padding: 0 20px;      /* keep a bit of side padding */
+    }
+  }
+  
+  

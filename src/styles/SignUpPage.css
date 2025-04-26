@@ -1,0 +1,107 @@
+/* -----main section ----- */
+  
+.main {
+    background: #fff;    
+  }
+
+  .account-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .account-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .account-form {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  
+  .account-form h2 {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .account-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .account-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .account-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .account-form .create-account {
+    background: #333;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .account-form .create-account:hover {
+    background: #f4a261;
+  }
+  
+  .account-form .signup-google {
+    background: #db4437;
+    color: #fff;
+  }
+  
+  .account-form .signup-google:hover {
+    background: #c23321;
+  }
+
+  @media (max-width: 1400px) {
+    .account-section {
+      /* stack vertically */
+      flex-direction: column;
+      /* center each child horizontally */
+      align-items: center;
+      /* optional: center the block itself vertically if you want */
+      justify-content: center;
+    }
+  
+    .account-image {
+      /* give a little breathing room under the picture */
+      margin-bottom: 20px;
+    }
+  
+    .account-form {
+      /* remove the left margin you added for desktop */
+      margin-left: 0;
+      margin-top: 20px;
+      flex: 2;
+      padding: 0 20px;      /* keep a bit of side padding */
+    }
+  }
+
+  @media (max-width: 500px) {
+    .account-form {
+        min-width: none;
+    }
+  }

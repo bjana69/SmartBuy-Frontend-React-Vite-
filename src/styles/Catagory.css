@@ -1,0 +1,126 @@
+/* src/styles/Category.css */
+.container3 .catagory {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .container3 .today-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .container3 .today-header1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container3 .today-header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .container3 .today-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .container3 .today-header span {
+    color: red;
+  }
+  
+  .container3 .red-box {
+    width: 10px;
+    height: 20px;
+    background: red;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .container3 .nav-arrow-catagory {
+    display: flex;
+    /* gap: 20px; */
+  }
+  
+  .container3 .nav-arrow-catagory .nav {
+    color: black;
+    background: transparent;
+    border: none;
+    font-size: 1.75rem;
+    cursor: pointer;
+    /* transition: transform 0.2s; */
+  }
+  
+  .container3 .nav-arrow-catagory .nav:hover {
+    transform: scale(1.2);
+  }
+  
+  .container3 .catagory-carousel {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container3 .catagory-list-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .container3 .catagory-list {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+  }
+  
+  .container3 .category-card {
+    flex: 0 0 auto;
+    min-width: 200px;
+    height: 160px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .container3 .category-card:hover {
+    background: rgb(236, 81, 81);
+    color: #fff;
+    .category-icon{
+        color: white;
+        font-size: 7rem;
+    }
+  }
+  
+  .container3 .category-card i {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .category-icon {
+    font-size: 6.5rem;  /* adjust as you like */
+    color: #333;        /* you can also change color */
+  }
+
+  /* .category-icon:hover {
+    font-size: 5.5rem;
+  } */
+  
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container3 .today-header2 {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .container3 .category-card {
+      min-width: 150px;
+    }
+  }
+  

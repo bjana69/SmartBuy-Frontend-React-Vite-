@@ -1,0 +1,188 @@
+/* src/styles/AboutPage.css */
+
+/* Our Story Section */
+.our-story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-content {
+    flex: 1;
+    padding-right: 30px;
+  }
+  
+  .text-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .image-content {
+    flex: 1;
+    text-align: right;
+    padding-left: 20px;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .our-story {
+      flex-direction: column;
+      text-align: center;
+    }
+    .text-content {
+      padding-right: 0;
+    }
+    .image-content {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Statistics Section */
+  .statistics-container {
+    width: 90%;
+    margin: auto;
+    
+  }
+  
+  /* .statistics-container .statistics {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    text-align: center;
+    padding: 20px;
+  } */
+
+  .statistics-container .statistics {
+    display: grid;
+    /* auto‑fit as many 220px‑wide cards as will fit; else they shrink/grow */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  
+  .statistics-container .stat {
+    background: #fff;
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+    border: 1px solid black;
+  }
+  
+  .statistics-container .stat:hover {
+    transform: scale(1.1);
+    /* background-color: #f4a261; */
+    background-color:  #f4a261;
+    color: white;
+  }
+  
+  .statistics-container .stat img {
+    border-radius: 25px;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    /* .statistics-container .statistics {
+      
+      
+    } */
+  }
+  
+  /* Team Carousel */
+  .main-content {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .team-heading h2 {
+    text-align: center;
+  }
+  
+  .carousel {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: none;
+    position: relative;
+    text-align: left;
+    max-height: 580px;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .team {
+    display: flex;
+    gap: 20px;               /* spacing between cards */
+    padding: 20px 0;
+  }
+  
+  .team-member {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .team-member img {
+    width: 300px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background: #000;
+  }
+  

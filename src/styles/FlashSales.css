@@ -1,0 +1,217 @@
+/* --------- Flash Sales Section --------- */
+.flash-sales {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .today-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .today-header1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .today-header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .today-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .today-header h2 span {
+    color: red;
+  }
+  
+  .red-box {
+    width: 10px;
+    height: 20px;
+    background: red;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .countdown {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .countdown div {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .countdown span {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-arrow-sales {
+    display: flex;
+    /* gap: 20px; */
+  }
+  
+  .nav-arrow-sales .nav {
+    color: black;
+    background: transparent;
+    border: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+  
+  .nav-arrow-sales .nav:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Product Carousel */
+  .product-carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-list-wrapper {
+    overflow: hidden;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 15px;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 7px;
+    margin-top: 5px;
+  }
+  
+  .product-card {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    min-width: 240px;
+    margin-left: 5px;
+  }
+  
+  .product-card img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .product-card .discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+  .heart-btn,
+  .eye-btn {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .heart-btn {
+    color: red;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .eye-btn {
+    color: #555;
+    top: 40px;
+    right: 10px;
+  }
+  
+  .heart-btn:hover,
+  .eye-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  .product-card .title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .product-card .price {
+    color: red;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .product-card .price del {
+    color: gray;
+    margin-left: 5px;
+  }
+  
+  .product-card .rating {
+    margin-top: 5px;
+    color: gold;
+    font-size: 0.9rem;
+  }
+  
+  .view-all {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .view-all button {
+    background: rgb(255, 77, 77);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .view-all button:hover {
+    transform: scale(1.05);
+    background: red;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .today-header2 {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .product-list {
+      gap: 10px;
+    }
+  
+  }
+
+  @media(max-width: 480px) {
+    .product-card {
+      width: 220px;
+    }
+
+    .product-card img{
+      width: 200px;
+    }
+  }
+  

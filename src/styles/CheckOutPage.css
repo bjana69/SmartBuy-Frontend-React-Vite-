@@ -1,0 +1,199 @@
+/* CheckOutPage.css */
+
+/* Container */
+.container-checkout {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  /* Layout */
+  .checkout-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  /* Billing Details */
+  .billing-details {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .billing-details h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .billing-details label {
+    display: block;
+    font-weight: bold;
+    margin: 12px 0 5px;
+    font-size: 14px;
+  }
+  
+  .billing-details input[type="text"],
+  .billing-details input[type="tel"],
+  .billing-details input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Save Info Checkbox */
+  .save-info {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .save-info input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .save-info label {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Order Summary */
+  .order-summary {
+    flex: 1;
+    min-width: 300px;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .order-item img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .order-item p {
+    flex: 1;
+    margin: 0 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .order-item span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Price Details */
+  .price-details {
+    margin: 20px 0;
+  }
+  
+  .price-details p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 8px 0;
+  }
+  
+  .price-details hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 8px 0;
+  }
+  
+  .price-details .savings {
+    color: #e63946;
+  }
+  
+  /* Payment Methods */
+  .payment-methods {
+    margin: 20px 0;
+  }
+  
+  .payment-methods label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .payment-methods input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  .payment-methods img {
+    margin-right: auto;
+    margin-left: 25px;
+    width: 80px;
+    height: auto;
+  }
+  
+  /* Coupon */
+  .coupon {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .coupon input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+  }
+  
+  .apply-coupon {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-coupon:hover {
+    background: #c9302c;
+  }
+  
+  /* Place Order Button */
+  .place-order {
+    width: 100%;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .place-order:hover {
+    background: #4cae4c;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .checkout-wrapper {
+      flex-direction: column;
+    }
+  }
+  

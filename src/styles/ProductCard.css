@@ -1,0 +1,87 @@
+/* ProductCard.css */
+
+.product {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product img {
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product .discount,
+  .product .new {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .product .discount {
+    background: #e74c3c;
+  }
+  
+  .product .new {
+    background: #27ae60;
+  }
+  
+  .product .add-to-cart {
+    margin-top: 0.75rem;
+    padding: 0.5rem;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .product:hover .add-to-cart {
+    opacity: 1;
+  }
+  
+  .product .title {
+    margin-top: 0.75rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .product .price {
+    margin-top: 0.5rem;
+    color: #e74c3c;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  
+  .product .price del {
+    margin-left: 0.5rem;
+    color: #999;
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+  
+  .product .rating {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: gold;
+  }
+  

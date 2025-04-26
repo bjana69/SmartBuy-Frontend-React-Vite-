@@ -1,0 +1,200 @@
+/* Container and Header */
+.container6 {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.container6 .section-header {
+  display: flex;
+  flex-direction: column;
+}
+.container6 .section-header .inline {
+  display: flex;
+  align-items: center;
+}
+.container6 .red-box {
+  width: 10px;
+  height: 20px;
+  background: red;
+  margin-right: 10px;
+}
+.container6 .inline h2 {
+  color: red;
+  font-size: 1.5rem;
+}
+.container6 .next-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container6 .nav-arrow-product {
+  display: flex;
+}
+.container6 .nav-arrow-product button {
+  /* display: flexbox; */
+  /* background: none; */
+  background-color: white;
+  color: #000;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.container6 .nav-arrow-product .nav prev2,
+.container6 .nav-arrow-product .nav next2 {
+  background: none;
+  border: none;
+  align-items: center;
+  color: #000;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.container6 .nav-arrow-product button:hover {
+  transform: scale(1.2);
+}
+
+/* Carousel Sections */
+.container6 .recommendations1,
+.container6 .recommendations2 {
+  display: flex;
+  overflow-x: hidden;
+  /* scroll-snap-type: x mandatory;  */
+  scroll-behavior: smooth;        
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+}
+.container6 .recommendations1::-webkit-scrollbar,
+.container6 .recommendations2::-webkit-scrollbar {
+  height: 8px;
+}
+.container6 .recommendations1::-webkit-scrollbar-thumb,
+.container6 .recommendations2::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+/* Product Card */
+.container6 .product {
+  flex: 0 0 20%;                      /* four cards visible */ 
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 10px 1px;
+  text-align: center;
+  position: relative;
+  scroll-snap-align: start;           
+  /* align each card at start :contentReference[oaicite:3]{index=3} */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.container6 .product:hover {
+  transform: translateY(-5px);
+}
+.container6 .product img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.container6 .product .discount,
+.container6 .product .new {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  color: #fff;
+}
+.container6 .product .discount { background: #e74c3c; }
+.container6 .product .new      { background: #27ae60; }
+
+.container6 .product .add-to-cart {
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.container6 .product:hover .add-to-cart {
+  opacity: 1;
+}
+
+.container6 .product .title {
+  margin-top: 0.75rem;
+  font-weight: 550;
+}
+.container6 .product .price {
+  margin-top: 0.5rem;
+  color: #e74c3c;
+  font-weight: 700;
+}
+.container6 .product .price del {
+  margin-left: 0.5rem;
+  color: #999;
+  font-weight: 400;
+}
+.container6 .product .rating {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: gold;
+}
+
+/* View All Button */
+.container6 .view-all {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.container6 .view-all button {
+  padding: 0.75rem 1.5rem;
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.container6 .view-all button:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .container6 .product { 
+      flex: 0 0 32%; 
+  }          
+}
+
+@media (max-width: 768px) {
+  .container6 .section-header .next-line {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  /* .container6 .recommendations1,
+  .container6 .recommendations2 {
+    justify-content: center;
+  } */
+}
+
+@media (max-width: 480px) {
+  .container6 .product {
+    flex: 0 0 80%;
+  }
+  .container6 .product img {
+    height: 150px;
+  }
+  .container6 .title, .price, .rating {
+    font-size: 0.875rem;
+  }
+}
