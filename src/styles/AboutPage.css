@@ -164,6 +164,10 @@
     text-decoration: none;
     font-size: 18px;
   }
+
+  .main-content .social-icons .icon {
+    color: rgb(151, 151, 214);
+  }
   
   .dots {
     position: absolute;

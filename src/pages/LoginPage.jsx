@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "../styles/LoginPage.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -85,21 +85,35 @@ const LoginPage = () => {
                   Login
                 </button>
                 <p>
-                  <a role="button"
-                  onClick={() => navigate("/404")}
-                  style={{ cursor: "pointer", marginLeft: "10px", color: "blue", textDecoration:"underline" }}>Forgot Password?</a>
+                  <Link
+                    role="button"
+                    to="/404"
+                    style={{
+                      cursor: "pointer",
+                      marginLeft: "10px",
+                      color: "blue",
+                      textDecoration: "underline",
+                    }}
+                  >
+                    Forgot Password?
+                  </Link>
                 </p>
               </div>
               <br />
               <p>
                 New to SmartBuy? Signup here!
-                <a
+                <Link
                   role="button"
-                  onClick={() => navigate("/signup")}
-                  style={{ cursor: "pointer", marginLeft: "10px", color: "blue", textDecoration:"underline" }}
+                  to="/signup"
+                  style={{
+                    cursor: "pointer",
+                    marginLeft: "10px",
+                    color: "blue",
+                    textDecoration: "underline",
+                  }}
                 >
                   SignUp
-                </a>
+                </Link>
               </p>
             </form>
           </div>

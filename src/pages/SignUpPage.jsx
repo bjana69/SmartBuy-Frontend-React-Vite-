@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "../styles/SignUpPage.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -106,9 +106,8 @@ const SignUpPage = () => {
 
             <p>
               Already have an account?{" "}
-              <a
-                role="button"
-                onClick={() => navigate("/")}
+              <Link
+                to="/login"
                 style={{
                   cursor: "pointer",
                   marginLeft: "10px",
@@ -117,7 +116,7 @@ const SignUpPage = () => {
                 }}
               >
                 Login
-              </a>
+              </Link>
             </p>
           </div>
         </div>

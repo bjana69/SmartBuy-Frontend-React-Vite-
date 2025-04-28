@@ -1,6 +1,8 @@
 // src/components/Footer.jsx
 import React from "react";
 import "../styles/Footer.css";
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
   return (
@@ -22,33 +24,57 @@ const Footer = () => {
       <div className="footer-section1">
         <h3>Account</h3>
         <ul>
-          <li><a href="login.html">Login / Register</a></li>
-          <li><a href="cart.html">Cart</a></li>
-          <li><a href="wishlist.html">Wishlist</a></li>
-          <li><a href="index.html">Shop</a></li>
+          <li>
+            <Link to="/login">Login / Register</Link>
+          </li>
+          <li>
+            <Link to="/cart">Cart</Link>
+          </li>
+          <li>
+            <Link to="/wishlist">Wishlist</Link>
+          </li>
+          <li>
+            <Link to="/">Shop</Link>
+          </li>
         </ul>
       </div>
 
       <div className="footer-section1">
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="404.html">Privacy Policy</a></li>
-          <li><a href="404.html">Terms of Service</a></li>
-          <li><a href="404.html">FAQ</a></li>
-          <li><a href="contactmain.html">Contact</a></li>
+          <li>
+            <Link to="/about">Privacy Policy</Link>
+          </li>
+          <li>
+            <Link to="/about">Terms of Service</Link>
+          </li>
+          <li>
+            <Link to="/404">FAQ</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
       </div>
 
       <div className="footer-section1">
         <h3>Download Our App</h3>
-        
+
         <p>(Not Yet Available, Mobile Application)</p>
         <p>Available on iOS and Android.</p>
-        <a href="https://play.google.com/store/games?hl=en&pli=1">
-          <img src="/appstore.jpeg" />
+        <a
+          href="https://play.google.com/store/games?hl=en&pli=1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/appstore.jpeg" alt="Google Play" />
         </a>
-        <a href="https://www.apple.com/in/app-store/">
-          <img src="/googleplay.png" alt="Google Play" />
+        <a
+          href="https://www.apple.com/in/app-store/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/googleplay.png" alt="App Store" />
         </a>
       </div>
 

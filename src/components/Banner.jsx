@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "../styles/Banner.css";
 
 const slides = [
@@ -54,33 +55,33 @@ const Banner = () => {
       {/* Sidebar */}
       <aside className="sidebar">
         <nav className="menu">
-          <a href="/404.html" className="menu-link">
+          <Link to="/404" className="menu-link">
             Woman's Fashion <span>›</span>
-          </a>
-          <a href="/404.html" className="menu-link">
+          </Link>
+          <Link to="/404" className="menu-link">
             Men's Fashion <span>›</span>
-          </a>
-          <a href="/404.html" className="menu-link">
+          </Link>
+          <Link to="/404" className="menu-link">
             Electronics
-          </a>
-          <a href="/404.html" className="menu-link">
+          </Link>
+          <Link to="/404" className="menu-link">
             Home & Lifestyle
-          </a>
-          <a href="/404.html" className="menu-link">
+          </Link>
+          <Link to="/404" className="menu-link">
             Medicine
-          </a>
-          <a href="/404.html" className="menu-link">
+          </Link>
+          <Link to="/404" className="menu-link">
             Sports & Outdoor
-          </a>
-          <a href="/404.html" className="menu-link">
+          </Link>
+          <Link to="/404" className="menu-link">
             Baby's & Toys
-          </a>
-          <a href="/404.html" className="menu-link">
+          </Link>
+          <Link to="/404" className="menu-link">
             Groceries & Pets
-          </a>
-          <a href="/404.html" className="menu-link">
+          </Link>
+          <Link to="/404" className="menu-link">
             Health & Beauty
-          </a>
+          </Link>
         </nav>
       </aside>
 

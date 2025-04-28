@@ -1,5 +1,6 @@
 // src/components/ServiceSection.jsx
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 import '../styles/Services.css';
 import { FaShippingFast, FaHeadset, FaShieldAlt, FaArrowUp } from 'react-icons/fa';
 // import { FaArrowUp } from 'react-icons/fa';
@@ -31,7 +32,7 @@ const ServiceSection = () => {
       <section className="features">
         <div className="feature">
           <div className="icon">
-            <a href="/404.html"><FaShippingFast className="icons"/></a>
+            <Link to="/404"><FaShippingFast className="icons"/></Link>
           </div>
           <h3>FREE AND FAST DELIVERY</h3>
           <p>Free delivery for all orders over $140</p>
@@ -39,7 +40,7 @@ const ServiceSection = () => {
 
         <div className="feature">
           <div className="icon">
-            <a href="/404.html"><FaHeadset className="icons"/></a>
+            <Link to="/404"><FaHeadset className="icons"/></Link>
           </div>
           <h3>24/7 CUSTOMER SERVICE</h3>
           <p>Friendly 24/7 customer support</p>
@@ -47,7 +48,7 @@ const ServiceSection = () => {
 
         <div className="feature">
           <div className="icon">
-            <a href="/404.html"><FaShieldAlt className="icons"/></a>
+            <Link to="/404"><FaShieldAlt className="icons"/></Link>
           </div>
           <h3>MONEY BACK GUARANTEE</h3>
           <p>We return money within 30 days</p>

@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from "react";
 import "../styles/AboutPage.css";
+import { Link } from "react-router-dom";
 import Header from "../components/Header.jsx";
 import Services from "../components/Services.jsx";
 import Footer from "../components/Footer.jsx";
@@ -164,15 +165,15 @@ const AboutPage = () => {
                   <h4>{m.name}</h4>
                   <p>{m.role}</p>
                   <div className="social-icons">
-                    <a href="#">
+                    <Link to="#">
                       <FaTwitter className="icon" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                       <FaCameraRetro className="icon" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                       <FaLink className="icon" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ))}
