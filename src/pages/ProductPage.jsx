@@ -10,14 +10,14 @@ const ProductPage = () => {
 
   // Thumbnail images
   const thumbnails = [
-    "src/assets/gaming2.png",
-    "src/assets/gaming3.png",
-    "src/assets/gaming4.png",
-    "src/assets/gaming5.png",
+    "/gaming2.png",
+    "/gaming3.png",
+    "/gaming4.png",
+    "/gaming5.png",
   ];
 
   // Component state
-  const [mainImage, setMainImage] = useState("src/assets/gaming1.png");
+  const [mainImage, setMainImage] = useState("/gaming1.png");
   const [selectedColor, setSelectedColor] = useState("red");
   const [selectedSize, setSelectedSize] = useState("M");
   const [quantity, setQuantity] = useState(1);
@@ -136,7 +136,7 @@ const ProductPage = () => {
             <div className="delivery-info">
               <div className="info-box">
                 <div className="delivery-img">
-                  <img src="src/assets/delivery1.jpg" alt="Free Delivery" />
+                  <img src="/delivery1.jpg" alt="Free Delivery" />
                 </div>
                 <div className="del-info">
                   <h3>Free Delivery</h3>
@@ -153,7 +153,7 @@ const ProductPage = () => {
               <div className="info-box">
                 <div className="delivery-img">
                   <img
-                    src="src/assets/return delivery.jpg"
+                    src="/return delivery.jpg"
                     alt="Return Delivery"
                   />
                 </div>

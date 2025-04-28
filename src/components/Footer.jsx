@@ -45,10 +45,10 @@ const Footer = () => {
         <p>(Not Yet Available, Mobile Application)</p>
         <p>Available on iOS and Android.</p>
         <a href="https://play.google.com/store/games?hl=en&pli=1">
-          <img src="src/assets/appstore.jpeg" />
+          <img src="/appstore.jpeg" />
         </a>
         <a href="https://www.apple.com/in/app-store/">
-          <img src="src/assets/googleplay.png" alt="Google Play" />
+          <img src="/googleplay.png" alt="Google Play" />
         </a>
       </div>
 

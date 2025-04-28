@@ -4,38 +4,38 @@ import "../styles/Banner.css";
 const slides = [
   {
     id: 1,
-    image: "src/assets/ad1.jpg",
+    image: "/ad1.jpg",
     title: "iPhone 14 Series",
     subtitle: "Up to 10% off Voucher",
-    link: "/404.html",
+    link: "/404",
   },
   {
     id: 2,
-    image: "src/assets/ad2.jpg",
+    image: "/ad2.jpg",
     title: "Stapuft Souce",
     subtitle: "Up to 10% off Voucher",
-    link: "/404.html",
+    link: "/404",
   },
   {
     id: 3,
-    image: "src/assets/ad3.jpg",
+    image: "/ad3.jpg",
     title: "Energy Powder",
     subtitle: "Up to 10% off Voucher",
-    link: "/404.html",
+    link: "/404",
   },
   {
     id: 4,
-    image: "src/assets/ad4.jpg",
+    image: "/ad4.jpg",
     title: "scent",
     subtitle: "Up to 15% off Voucher",
-    link: "/404.html",
+    link: "/404",
   },
   {
     id: 5,
-    image: "src/assets/ad5.jpg",
+    image: "/ad5.jpg",
     title: "Guava Juce",
     subtitle: "Up to 30% off Voucher",
-    link: "/404.html",
+    link: "/404",
   },
 ];
 

@@ -7,7 +7,7 @@ import "../styles/RelatedItems.css";
 const items = [
   {
     id: 5,
-    image: "src/assets/product5.jpg",
+    image: "/product5.jpg",
     alt: "ASUS FHD Gaming Laptop",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
@@ -19,7 +19,7 @@ const items = [
   },
   {
     id: 6,
-    image: "src/assets/product6.jpg",
+    image: "/product6.jpg",
     alt: "IPS LCD Gaming Monitor",
     title: "IPS LCD Gaming Monitor",
     price: 1160,
@@ -31,7 +31,7 @@ const items = [
   },
   {
     id: 7,
-    image: "src/assets/product7.jpg",
+    image: "/product7.jpg",
     alt: "HAVIT HV-G92 Gamepad",
     title: "HAVIT HV-G92 Gamepad",
     price: 560,
@@ -43,7 +43,7 @@ const items = [
   },
   {
     id: 8,
-    image: "src/assets/product8.webp",
+    image: "/product8.webp",
     alt: "AK-900 Wired Keyboard",
     title: "AK-900 Wired Keyboard",
     price: 200,

@@ -16,8 +16,8 @@ const userProfile = {
 
 // Dummy order items
 const orderItems = [
-  { id: 1, name: "LCD Monitor", image: "src/assets/cart1.jpeg", price: 650 },
-  { id: 2, name: "H1 Gamepad", image: "src/assets/cart2.webp", price: 1100 },
+  { id: 1, name: "LCD Monitor", image: "/cart1.jpeg", price: 650 },
+  { id: 2, name: "H1 Gamepad", image: "/cart2.webp", price: 1100 },
 ];
 
 const CheckOutPage = () => {
@@ -216,7 +216,7 @@ const CheckOutPage = () => {
             <div className="payment-methods">
               <label>
                 <input type="radio" name="payment" value="bank" /> Bank{" "}
-                <img src="src/assets/checkout1.png" alt="Payment Methods" />
+                <img src="/checkout1.png" alt="Payment Methods" />
               </label>
               <label>
                 <input type="radio" name="payment" value="cod" defaultChecked />{" "}

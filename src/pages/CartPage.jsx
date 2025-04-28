@@ -6,8 +6,8 @@ import Footer from "../components/Footer";
 
 // Initial cart items
 const initialCart = [
-  { id: 1, name: "LCD Monitor", image: "src/assets/cart1.jpeg", price: 650, quantity: 1 },
-  { id: 2, name: "H1 Gamepad", image: "src/assets/cart2.webp", price: 550, quantity: 2 },
+  { id: 1, name: "LCD Monitor", image: "/cart1.jpeg", price: 650, quantity: 1 },
+  { id: 2, name: "H1 Gamepad", image: "/cart2.webp", price: 550, quantity: 2 },
 ];
 
 const CartPage = () => {
@@ -47,7 +47,7 @@ const CartPage = () => {
     const code = coupon.trim().toUpperCase();
     if (code === "SAVE10") {
       setDiscountPercent(10);
-    //   alert("Coupon applied: 10% off!");
+      //   alert("Coupon applied: 10% off!");
     } else {
       setDiscountPercent(0);
       alert("Invalid coupon code");
@@ -97,9 +97,19 @@ const CartPage = () => {
                 </td>
                 <td>${item.price}</td>
                 <td>
-                  <button className="quantity-btn" onClick={() => decrementQty(item.id)}>-</button>
+                  <button
+                    className="quantity-btn"
+                    onClick={() => decrementQty(item.id)}
+                  >
+                    -
+                  </button>
                   <span className="qty-display">{item.quantity}</span>
-                  <button className="quantity-btn" onClick={() => incrementQty(item.id)}>+</button>
+                  <button
+                    className="quantity-btn"
+                    onClick={() => incrementQty(item.id)}
+                  >
+                    +
+                  </button>
                 </td>
                 <td>${item.price * item.quantity}</td>
               </tr>
@@ -128,7 +138,7 @@ const CartPage = () => {
               Apply Coupon
             </button>
             //Demo cupon code "SAVE10"
-          </div> 
+          </div>
 
           <div className="cart-summary">
             <h3>Cart Total</h3>
@@ -141,19 +151,17 @@ const CartPage = () => {
             {/* Show savings line only if a valid coupon is applied */}
             {discountPercent > 0 && (
               <p className="savings">
-                Savings ({discountPercent}%):{' '}
+                Savings ({discountPercent}%):{" "}
                 <span>-${discountAmount.toFixed(2)}</span>
               </p>
             )}
             <p className="total">
-              Total:{' '}
+              Total:{" "}
               <span>
-                ${
-                  (discountPercent > 0
-                    ? totalAfterDiscount
-                    : subtotal
-                  ).toFixed(2)
-                }
+                $
+                {(discountPercent > 0 ? totalAfterDiscount : subtotal).toFixed(
+                  2
+                )}
               </span>
             </p>
             <button className="checkout-btn" onClick={handleCheckout}>

@@ -157,9 +157,9 @@ const Header = () => {
             <Link to="/signup" className="nav-link">
               Sign Up
             </Link>
-            <Link to="/login" className="nav-link">
+            {/* <Link to="/login" className="nav-link">
               Sign In
-            </Link>
+            </Link> */}
           </nav>
 
           {/* Search bar */}
@@ -169,7 +169,9 @@ const Header = () => {
               placeholder="What are you looking for?"
               className="search-input"
             />
-            <button className="search-btn"><BiSearchAlt className="search-icon"/></button>
+            <button className="search-btn">
+              <BiSearchAlt className="search-icon" />
+            </button>
           </div>
 
           <div className="icons-group">

@@ -37,7 +37,7 @@
   
   .container7 .firstbox {
     flex: 1;
-    background-image: url('src/assets/product10.jpg');
+    background-image: url('/product10.jpg');
     height: 550px;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@
   
   .container7 .secondbox {
     flex: 1;
-    background-image: url('src/assets/product11.jpg');
+    background-image: url('/product11.jpg');
     min-height: 245px;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@
   
   .container7 .thirdbox {
     flex: 1;
-    background-image: url('src/assets/product13.png');
+    background-image: url('/product13.png');
     height: 235px;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@
   
   .container7 .forthbox {
     flex: 1;
-    background-image: url('src/assets/product12.png');
+    background-image: url('/product12.png');
     height: 235px;
     display: flex;
     flex-direction: column;

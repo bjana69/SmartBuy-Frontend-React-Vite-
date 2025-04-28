@@ -48,7 +48,7 @@ const LoginPage = () => {
       <main className="mainLogin">
         <div className="account-section">
           <div className="account-image">
-            <img src="src/assets/signup1.png" alt="Shopping Cart" />
+            <img src="/signup1.png" alt="Shopping Cart" />
           </div>
 
           <div className="account-form">

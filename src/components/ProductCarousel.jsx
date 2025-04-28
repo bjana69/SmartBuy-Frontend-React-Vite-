@@ -6,7 +6,7 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 const products1 = [
   {
     id: 1,
-    image: "src/assets/product5.jpg",
+    image: "/product5.jpg",
     alt: "ASUS FHD Gaming Laptop",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
@@ -18,7 +18,7 @@ const products1 = [
   },
   {
     id: 2,
-    image: "src/assets/product6.jpg",
+    image: "/product6.jpg",
     alt: "IPS LCD Gaming Monitor",
     title: "IPS LCD Gaming Monitor",
     price: 1160,
@@ -27,7 +27,7 @@ const products1 = [
   },
   {
     id: 3,
-    image: "src/assets/product7.jpg",
+    image: "/product7.jpg",
     alt: "HAVIT HV-G92 Gamepad",
     title: "HAVIT HV-G92 Gamepad",
     price: 560,
@@ -37,7 +37,7 @@ const products1 = [
   },
   {
     id: 4,
-    image: "src/assets/product8.webp",
+    image: "/product8.webp",
     alt: "AK-900 Wired Keyboard",
     title: "AK-900 Wired Keyboard",
     price: 200,
@@ -46,7 +46,7 @@ const products1 = [
   },
   {
     id: 5,
-    image: "src/assets/product1.webp",
+    image: "/product1.webp",
     alt: "ASUS FHD Gaming Laptop",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
@@ -57,7 +57,7 @@ const products1 = [
   },
   {
     id: 6,
-    image: "src/assets/product2.jpeg",
+    image: "/product2.jpeg",
     alt: "IPS LCD Gaming Monitor",
     title: "IPS LCD Gaming Monitor",
     price: 1160,
@@ -66,7 +66,7 @@ const products1 = [
   },
   {
     id: 7,
-    image: "src/assets/product3.jpg",
+    image: "/product3.jpg",
     alt: "HAVIT HV-G92 Gamepad",
     title: "HAVIT HV-G92 Gamepad",
     price: 560,
@@ -76,7 +76,7 @@ const products1 = [
   },
   {
     id: 8,
-    image: "src/assets/product4.jpg",
+    image: "/product4.jpg",
     alt: "AK-900 Wired Keyboard",
     title: "AK-900 Wired Keyboard",
     price: 200,
@@ -89,7 +89,7 @@ const products1 = [
 const products2 = [
   {
     id: 5,
-    image: "src/assets/product1.webp",
+    image: "/product1.webp",
     alt: "ASUS FHD Gaming Laptop",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
@@ -100,7 +100,7 @@ const products2 = [
   },
   {
     id: 6,
-    image: "src/assets/product2.jpeg",
+    image: "/product2.jpeg",
     alt: "IPS LCD Gaming Monitor",
     title: "IPS LCD Gaming Monitor",
     price: 1160,
@@ -109,7 +109,7 @@ const products2 = [
   },
   {
     id: 7,
-    image: "src/assets/product3.jpg",
+    image: "/product3.jpg",
     alt: "HAVIT HV-G92 Gamepad",
     title: "HAVIT HV-G92 Gamepad",
     price: 560,
@@ -119,7 +119,7 @@ const products2 = [
   },
   {
     id: 8,
-    image: "src/assets/product4.jpg",
+    image: "/product4.jpg",
     alt: "AK-900 Wired Keyboard",
     title: "AK-900 Wired Keyboard",
     price: 200,
@@ -128,7 +128,7 @@ const products2 = [
   },
   {
     id: 1,
-    image: "src/assets/product5.jpg",
+    image: "/product5.jpg",
     alt: "ASUS FHD Gaming Laptop",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
@@ -140,7 +140,7 @@ const products2 = [
   },
   {
     id: 2,
-    image: "src/assets/product6.jpg",
+    image: "/product6.jpg",
     alt: "IPS LCD Gaming Monitor",
     title: "IPS LCD Gaming Monitor",
     price: 1160,
@@ -149,7 +149,7 @@ const products2 = [
   },
   {
     id: 3,
-    image: "src/assets/product7.jpg",
+    image: "/product7.jpg",
     alt: "HAVIT HV-G92 Gamepad",
     title: "HAVIT HV-G92 Gamepad",
     price: 560,
@@ -159,7 +159,7 @@ const products2 = [
   },
   {
     id: 4,
-    image: "src/assets/product8.webp",
+    image: "/product8.webp",
     alt: "AK-900 Wired Keyboard",
     title: "AK-900 Wired Keyboard",
     price: 200,

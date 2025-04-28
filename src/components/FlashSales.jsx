@@ -6,7 +6,7 @@ const products = [
   {
     id: 1,
     discount: "-45%",
-    image: "src/assets/product1.webp",
+    image: "/product1.webp",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -16,7 +16,7 @@ const products = [
   {
     id: 2,
     discount: "-55%",
-    image: "src/assets/product2.jpeg",
+    image: "/product2.jpeg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -26,7 +26,7 @@ const products = [
   {
     id: 3,
     discount: "-65%",
-    image: "src/assets/product3.jpg",
+    image: "/product3.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -36,7 +36,7 @@ const products = [
   {
     id: 4,
     discount: "-75%",
-    image: "src/assets/product4.jpg",
+    image: "/product4.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -46,7 +46,7 @@ const products = [
   {
     id: 5,
     discount: "-85%",
-    image: "src/assets/product5.jpg",
+    image: "/product5.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -56,7 +56,7 @@ const products = [
   {
     id: 6,
     discount: "-95%",
-    image: "src/assets/product6.jpg",
+    image: "/product6.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -66,7 +66,7 @@ const products = [
   {
     id: 7,
     discount: "-95%",
-    image: "src/assets/product7.jpg",
+    image: "/product7.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -76,7 +76,7 @@ const products = [
   {
     id: 8,
     discount: "-95%",
-    image: "src/assets/product8.webp",
+    image: "/product8.webp",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -86,7 +86,7 @@ const products = [
   {
     id: 9,
     discount: "-45%",
-    image: "src/assets/product1.webp",
+    image: "/product1.webp",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -96,7 +96,7 @@ const products = [
   {
     id: 10,
     discount: "-55%",
-    image: "src/assets/product2.jpeg",
+    image: "/product2.jpeg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -106,7 +106,7 @@ const products = [
   {
     id: 11,
     discount: "-65%",
-    image: "src/assets/product3.jpg",
+    image: "/product3.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -116,7 +116,7 @@ const products = [
   {
     id: 12,
     discount: "-75%",
-    image: "src/assets/product4.jpg",
+    image: "/product4.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -126,7 +126,7 @@ const products = [
   {
     id: 13,
     discount: "-85%",
-    image: "src/assets/product5.jpg",
+    image: "/product5.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -136,7 +136,7 @@ const products = [
   {
     id: 14,
     discount: "-95%",
-    image: "src/assets/product6.jpg",
+    image: "/product6.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -146,7 +146,7 @@ const products = [
   {
     id: 15,
     discount: "-95%",
-    image: "src/assets/product7.jpg",
+    image: "/product7.jpg",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,
@@ -156,7 +156,7 @@ const products = [
   {
     id: 16,
     discount: "-95%",
-    image: "src/assets/product8.webp",
+    image: "/product8.webp",
     title: "ASUS FHD Gaming Laptop",
     price: 960,
     original: 1160,

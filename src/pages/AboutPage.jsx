@@ -11,25 +11,25 @@ import { FaCameraRetro } from "react-icons/fa";
 const stats = [
   {
     id: 1,
-    image: "src/assets/about2.png",
+    image: "/about2.png",
     number: "10.5k",
     label: "Sellers active on our site",
   },
   {
     id: 2,
-    image: "src/assets/about3.png",
+    image: "/about3.png",
     number: "33k",
     label: "Monthly Product Sale",
   },
   {
     id: 3,
-    image: "src/assets/about4.png",
+    image: "/about4.png",
     number: "45.5k",
     label: "Customers active on our site",
   },
   {
     id: 4,
-    image: "src/assets/about5.png",
+    image: "/about5.png",
     number: "25k",
     label: "Annual gross sale on our site",
   },
@@ -39,37 +39,37 @@ const stats = [
 const teamMembers = [
   {
     id: 1,
-    image: "src/assets/about6.png",
+    image: "/about6.png",
     name: "Tom Cruise",
     role: "Founder & Chairman",
   },
   {
     id: 2,
-    image: "src/assets/about7.png",
+    image: "/about7.png",
     name: "Emma Watson",
     role: "Managing Director",
   },
   {
     id: 3,
-    image: "src/assets/about8.png",
+    image: "/about8.png",
     name: "Will Smith",
     role: "Product Designer",
   },
   {
     id: 4,
-    image: "src/assets/about6.png",
+    image: "/about6.png",
     name: "Biswanath Jana",
     role: "CTO",
   },
   {
     id: 5,
-    image: "src/assets/about7.png",
+    image: "/about7.png",
     name: "Chris Evans",
     role: "Lead Developer",
   },
   {
     id: 6,
-    image: "src/assets/about8.png",
+    image: "/about8.png",
     name: "Natalie Portman",
     role: "UX Designer",
   },
@@ -130,7 +130,7 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="image-content">
-            <img src="src/assets/about1.png" alt="Two women shopping" />
+            <img src="/about1.png" alt="Two women shopping" />
           </div>
         </section>
 

@@ -11,7 +11,7 @@ const WishlistPage = () => {
     {
       id: 1,
       title: "Gucci duffle bag",
-      image: "src/assets/product1.webp",
+      image: "/product1.webp",
       price: 960,
       oldPrice: 1160,
       discount: 35,
@@ -21,7 +21,7 @@ const WishlistPage = () => {
     {
       id: 2,
       title: "RGB Liquid CPU Cooler",
-      image: "src/assets/product2.jpeg",
+      image: "/product2.jpeg",
       price: 1960,
       oldPrice: null,
       discount: null,
@@ -31,7 +31,7 @@ const WishlistPage = () => {
     {
       id: 3,
       title: "GP11 Shooter USB Gamepad",
-      image: "src/assets/product3.jpg",
+      image: "/product3.jpg",
       price: 550,
       oldPrice: null,
       discount: null,
@@ -41,7 +41,7 @@ const WishlistPage = () => {
     {
       id: 4,
       title: "Quilted Satin Jacket",
-      image: "src/assets/product4.jpg",
+      image: "/product4.jpg",
       price: 750,
       oldPrice: null,
       discount: null,
@@ -55,7 +55,7 @@ const WishlistPage = () => {
     {
       id: 5,
       title: "ASUS FHD Gaming Laptop",
-      image: "src/assets/product5.jpg",
+      image: "/product5.jpg",
       price: 960,
       oldPrice: 1160,
       discount: 35,
@@ -66,7 +66,7 @@ const WishlistPage = () => {
     {
       id: 6,
       title: "IPS LCD Gaming Monitor",
-      image: "src/assets/product6.jpg",
+      image: "/product6.jpg",
       price: 1160,
       oldPrice: null,
       discount: null,
@@ -77,7 +77,7 @@ const WishlistPage = () => {
     {
       id: 7,
       title: "HAVIT HV-G92 Gamepad",
-      image: "src/assets/product7.jpg",
+      image: "/product7.jpg",
       price: 560,
       oldPrice: null,
       discount: null,
@@ -88,7 +88,7 @@ const WishlistPage = () => {
     {
       id: 8,
       title: "AK-900 Wired Keyboard",
-      image: "src/assets/product8.webp",
+      image: "/product8.webp",
       price: 200,
       oldPrice: null,
       discount: null,
